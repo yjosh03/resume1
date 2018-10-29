@@ -14,52 +14,70 @@
 <script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
 
 </head><body ng-app="Resume" ng-cloak="">
-    <resume>
-        <resume-heading first-name="Joshua" last-name="Young" linkedin="tay-swizzy" github="tswizzle" email="yjosh03@gmail.com" phone="443-640-5171">
+<resume-heading first-name="Joshua" last-name="Young" email="yjosh03@gmail.com" phone="443-640-5171">
         </resume-heading>
         <resume-body>
             <resume-column flex="20">
-                <sidebar-category name="Education">
-                    <p>Salisbury University</p>
-                    <p>Graduating July 2018</p>
-                    <p>Master of Science in Geographic Information Systems Management</p>
-                </sidebar-category>
-                <sidebar-category name="Undergraduate">
-                    <p>Salisbury University</p>
-                    <p>BS in Geography GIS track</p>
-                    <p>GPA 3.537</p>
-                    <p>Harford Community College</p>
-                    <p>Aug 2015- May 2015</p>
-                </sidebar-category>
                 <sidebar-category name="Coursework">
                     <p>Enterprise GIS</p>
-                    <p>Saptial Analysis</p>
+                    <p>Spatial Analysis</p>
                     <p>Opensource Technologies</p>
                     <p>Cartography</p>
                     <p>GIS programming</p>
                     <p>GIS Data Modeling</p>
                     <p>SQL and Python</p>
                 </sidebar-category>
+                <sidebar-category name="GIS Software">
+                    <p>ArcMap</p>
+                    <p>QGIS</p>
+                    <p>Manifold</p>
+					<p>PgAdmin</p>
+                    <p>GDAL</p>
+					<p>Leaflet</p>
+                    <p>Geoserver</p>              
+                </sidebar-category>
+                <sidebar-category name="Languages">
+                    <p>SQL</p>
+                    <p>ArcPy</p>
+                    <p>HTML</p>
+					<p>PHP</p>
+                </sidebar-category>
             </resume-column>
             <resume-column flex="80">
-                <category name="Professional Experience">
-                    <category-item title="Co-Founder" subtitle="Torch Studios">
-                        <li>Co-Founded company in 2015</li>
-                        <li>Applies machine learning to customer purchase history for marketing materials</li>
-                        <li>Featured on Product Hunt, clients include two Fourtune 500 companies</li>
+				<category name="Professional Experience">
+					<category-item title="Digitizing Fish Ponds with 5 km of Lake Victoria, Africa Shoreline" subtitle="Internship through Salisbury University">
+                        <li>Aug 2017 - Dec 2017</li>
+                        <li>Using mostly Bing imagery and a fishnet grid, all fish ponds around the perimeter of the lake were digitized</li>                     
                     </category-item>
-                    <category-item title="Software Development Intern" subtitle="AirBnB (Summer 2015)">
-                        <li>Worked in an Agile Environment on the iOS team with other interns</li>
-                        <li>Used JIRA to collaborate with developers are on stories</li>
-                        <li>Collaborated with other interns on design</li>
-                        <li>Used Objective-C to create new app features and scaled on Kubernetes</li>
+                    <category-item title="Connecting desperate databases using Radian 9" subtitle="Internship through Salisbury University working with City of Salisbury">
+                        <li>June 2017 - Sept 2017</li>
+                        <li>Using radian and vpn's, we remotely connected to the city of Salisbury database's. </li>
+                        <li>Analyzed the surrounding area to find trends in opioid arrests to identify hot spots around Salisbury.</li>
                     </category-item>
-                    <category-item title="Software Development Intern" subtitle="Uber (Summer 2014)">
-                        <li>Worked on the iOS application</li>
-                        <li>Added new features and fixed several bugs on the app</li>
-                        <li>Greenfield project to research a better way to call cars to your location</li>
+					<category-item title="Update and Maintain Salisbury Arboretum Database" subtitle="Zachery Radziewicz, Lindsey Pinder and I">
+                        <li>June 2017 - Aug 2017</li>
+                        <li>Digitized East Campus and maintained new and removed trees attributes.</li>
+                        <li>Surveyed tree locations to map them with accuracy.</li>
+						<li>Used ArcGlobe/ArcScene to view data in 3d, eventually turning in into an online map.</li>
+                    </category-item>
+					
+					
+					<category-item title="Digitizing Agricultural Ditches along the Eastern Shore of Maryland" subtitle="">
+                        <li>June 2017 - Aug 2017</li>
+                        <li>Digitized East Campus and maintained new and removed trees attributes.</li>
+                        <li>Surveyed tree locations to map them with accuracy.</li>
+						<li>Used ArcGlobe/ArcScene to view data in 3d, eventually turning in into an online map.</li>
+                    </category-item>
+					
+					
+					<category-item title="Helped with Workshops alongside Dr. Art Lembo" subtitle="TUGIS, Baltimore Metropolitan Council">
+                        <li>Name each conference and the date + the content covered</li>
+                        <li></li>
+                        <li></li>
+						<li></li>
                     </category-item>
                 </category>
+				
                 <category name="Projects">
                     <category-item title="In-It-For-The-Prizes" subtitle="Penn Apps Spring 2016 (Finalist)">
                         <li>Such and amazing app that did a lot of things</li>
